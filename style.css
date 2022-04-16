@@ -1,0 +1,23 @@
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    margin: auto;
+}
+.shop_button{
+
+}
+.navhead{
+    width: 100%!important;
+}
+.basket-modal{
+    z-index: 250;
+    background: white;
+    position: absolute;
+    right: 0px;
+    top: 65px;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    right: 14px;
+    display: none;
+}
